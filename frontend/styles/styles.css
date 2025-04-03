@@ -57,8 +57,9 @@ font-weight: 400;
 .form-control, 
 textarea {
 max-width: 400px;
-background-color: #000;
-color: #fff;
+background-color: #F8F9FA;
+backdrop-filter: blur(10px);
+/* color: #fff; */
 letter-spacing: 1px;
 }
 
