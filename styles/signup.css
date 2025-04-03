@@ -1,6 +1,6 @@
 /* Apply the full background */
 body {
-    background: url('../assets/BackGround.png') no-repeat center center fixed;
+    background: url('../assets/Background-1.png');
     background-size: cover;
     display: flex;
     justify-content: center;
