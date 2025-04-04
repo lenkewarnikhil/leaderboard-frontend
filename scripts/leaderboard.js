@@ -3,10 +3,10 @@ document.addEventListener("DOMContentLoaded", async () => {
         const response = await fetch("https://leaderboard-backend-y672.onrender.com/api/leaderboard");
         const users = await response.json(); // Read response once
 
-        console.log("✅ Leaderboard Data:", users); // Debugging log
+        console.log("✅ Leaderboard Data:", users);
 
         const leaderboardBody = document.getElementById("leaderboard-body");
-        leaderboardBody.innerHTML = ""; // Clear old data
+        leaderboardBody.innerHTML = ""; 
 
         users.forEach((user,index) => {
             const row = document.createElement("tr");
