@@ -25,10 +25,10 @@ footer {
 
 body {
     background: url('/frontend/assets/Background-1.png');
-margin: 0;
-padding: 0;
-background-color: #000;
-padding-bottom: 100px;
+    margin: 0;
+    padding: 0;
+    /* background-color: #000; */
+    padding-bottom: 100px;
 }
 
 #contact {
